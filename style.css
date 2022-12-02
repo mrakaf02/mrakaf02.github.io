@@ -1,0 +1,160 @@
+html {
+    position: relative;
+    
+}
+
+body {
+    margin-bottom: 120px;
+    margin-top: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.jumbotron {
+    background-image: url("./img/sky.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 -140px;
+    color: #f1f1f1; 
+    overflow: hidden;
+}
+
+.jumbotron {
+    background-color: rgb(176, 184, 184);
+}
+
+.jumbotron img {
+    margin-top: 30px;
+    width: 200px;
+    height: 250px;
+    border: 5px solid black;
+    box-shadow: 1px 1px 10px rgba('0,0,0,0.5');
+}
+
+.jumbotron h1, .jumbotron p {
+    text-shadow: 1px 1px 10px rgba('0,0,0,0.5');
+}
+
+.img-circle {
+    margin-bottom: 20px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+
+ hr {
+    border-top: 3px solid black;
+}
+
+.col-sm-12 .text-center {
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.col-sm-12  h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section {
+    min-height: 900px;
+}
+
+.portfolio {
+    background-color: rgb(176, 184, 184);
+}
+
+.pKiri, .pKanan {
+    opacity: 0;
+    transform: translate(-50px, 0) rotate(15deg);
+    transition: 1s;
+    text-align: justify;
+}
+
+.pKanan {
+    transform: translate(50px, 0) rotate(-15deg);
+}
+
+.pKiri.pMuncul, .pKanan.pMuncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.portfolio .thumbnail {
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: .8s;
+}
+
+.portfolio .thumbnail.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.col-sm-4 {
+    margin-bottom: 50px;
+}
+
+#portfolio h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.col-sm-12 h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group  {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    margin-top: 10px;
+}
+
+.form-group .form-control {
+    margin-top: 10px;
+}
+
+.contact {
+    min-height: 900px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+    background-color: #333;
+    padding-top: 40px;
+}
+
+footer p {
+    color: #aaa;
+    font-size: 0.9em;
+}
+
+.kntl {
+    text-decoration: none;
+    color: white
+}
+
+.kntl:hover {
+    transition: 0.9s;
+    color: aquamarine;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.navbar-brand:hover {
+    transition: 0.7s;
+    color: royalblue;
+}
+
+
+
